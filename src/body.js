@@ -8,33 +8,29 @@ import {
   CardSubtitle,
   Button,
 } from "reactstrap";
-import { List } from "reactstrap";
 
 function body() {
-  function createChronicDiseaseList(diseases) {
-    return (
-      <div>
-        <List type="unstyled">
-          <li>Lorem ipsum dolor sit amet</li>
-          <li>Consectetur adipiscing elit</li>
-          <li>Integer molestie lorem at massa</li>
-          <li>Facilisis in pretium nisl aliquet</li>
-          <li>
-            Nulla volutpat aliquam velit
-            <ul>
-              <li>Phasellus iaculis neque</li>
-              <li>Purus sodales ultricies</li>
-              <li>Vestibulum laoreet porttitor sem</li>
-              <li>Ac tristique libero volutpat at</li>
-            </ul>
-          </li>
-          <li>Faucibus porta lacus fringilla vel</li>
-          <li>Aenean sit amet erat nunc</li>
-          <li>Eget porttitor lorem</li>
-        </List>
-      </div>
-    );
-  }
+  // function createChronicDiseaseList(diseases){
+  //     return <div>
+  //          <List type="unstyled">
+  //   <li>Lorem ipsum dolor sit amet</li>
+  //   <li>Consectetur adipiscing elit</li>
+  //   <li>Integer molestie lorem at massa</li>
+  //   <li>Facilisis in pretium nisl aliquet</li>
+  //   <li>Nulla volutpat aliquam velit
+  //     <ul>
+  //       <li>Phasellus iaculis neque</li>
+  //       <li>Purus sodales ultricies</li>
+  //       <li>Vestibulum laoreet porttitor sem</li>
+  //       <li>Ac tristique libero volutpat at</li>
+  //     </ul>
+  //   </li>
+  //   <li>Faucibus porta lacus fringilla vel</li>
+  //   <li>Aenean sit amet erat nunc</li>
+  //   <li>Eget porttitor lorem</li>
+  // </List>
+  //     </div>
+  // }
   return (
     <div>
       <div className="row gutters-sm">
@@ -192,7 +188,7 @@ function body() {
           </div>
           {/* end of emergecny notes */}
           {/* Chronic Diseases List-Dynamic */}
-          Datas.map(createChronicDiseaseList)
+          {/* db.map(createChronicDiseaseList) */}
           {/* End of chronic diseases list */}
           <div className="row gutters-sm">
             <div className="col-sm-6 mb-3">
