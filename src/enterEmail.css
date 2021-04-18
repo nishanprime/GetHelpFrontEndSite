@@ -1,7 +1,5 @@
 .enterEmailContainer {
   background-color: aqua;
-  width: 100vw;
-  height: 10vh;
   overflow: auto;
 }
 .emailForm {
