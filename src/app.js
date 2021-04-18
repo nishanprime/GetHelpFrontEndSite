@@ -1,15 +1,19 @@
-import React from 'react'
-import Header from "./header"
-import Body from "./body"
-import EnterEmail from "./enterEmail"
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Details from "./pages/details";
+import Home from "./pages/home";
 
-function app() {
-    return (
-        <div>
-            <Header/>
-            <Body/>
-        </div>
-    )
+export default function App() {
+  return (
+    <Router>
+      <Switch>
+        <Route path="/details/:email">
+          <Details />
+        </Route>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
+    </Router>
+  );
 }
-
-export default app
