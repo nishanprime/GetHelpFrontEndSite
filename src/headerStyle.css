@@ -1,0 +1,14 @@
+.logo {
+  object-fit: contain;
+  height: 100px;
+}
+body {
+  margin: 0;
+}
+.headerContainer {
+  background-color: rgba(0, 255, 255, 0.329);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+}
